@@ -4,3 +4,11 @@
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+footer{
+  background-color: rgb(8, 145, 178);
+}
+
+footer div p{
+  color: white;
+}
