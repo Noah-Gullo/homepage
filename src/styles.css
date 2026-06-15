@@ -7,8 +7,20 @@
 
 .github,
 .linkedin,
-.twitter{
+.twitter,
+.externallink,
+.phone{
   width: 1em;
+}
+
+#projectGrid{
+  display: grid;
+  grid-template-cols: repeat(1fr, 3);
+  gap: 1em;
+}
+
+.project{
+  width: 20em;
 }
 
 footer{
