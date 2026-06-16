@@ -2,7 +2,36 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Robotto", Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+h2{
+  font-family: "Playfair", Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+
+@font-face {
+  font-family: "Robotto";
+  src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face{
+  font-family: "Playfair";
+  src: url("./fonts/PlayfairDisplay-Regular.ttf");
+}
+
+#header{
+  display: flex;
+  margin: 3em;
+}
+
+#aboutme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em;
 }
 
 .github,
@@ -13,20 +42,64 @@
   width: 1em;
 }
 
+.stork{
+  width: 15em;
+}
+
+#mywork{
+  margin-left: 2em;
+}
+
 #projectGrid{
-  display: grid;
-  grid-template-cols: repeat(1fr, 3);
-  gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.screenshot{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(0, 85, 255);
+  padding: 1em;
+  font-size: 3em;
+}
+
+
+.screenshot p{
+  font-family: "Playfair", Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .project{
-  width: 20em;
+  grid-row: 1 / 2;
+  margin-left: 3em;
+  box-shadow: 5px 8px 6px -6px rgba(0, 0, 0, 0.3);
+}
+
+.description{
+  padding-left: 2em;
+}
+
+.projectheader{
+  display: flex;
+  padding-left: 2em;
+  gap: 1em;
+}
+
+.projectheader p{
+  margin-top: 1em;
+  margin-right: 7em;
 }
 
 footer{
   background-color: rgb(8, 145, 178);
 }
 
-footer div p{
+footer div p,
+footer div h2{
   color: white;
+  margin-left: 2em;
 }
