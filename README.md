@@ -1,5 +1,11 @@
 # Homepage
 
+# Description:
+A responsive homepage with filler information.
+
+# Skills:
+Practicing more about responsive design including media queries, responsive images, and natural responsiveness
+
 ## Credits:
 - Image of the first black stork from [Sergey Antonov on pexels.com](https://www.pexels.com/photo/black-stork-in-flight-against-clear-blue-sky-37329282/)
 -Image of yellow canary from [Alex Pereya](https://www.pexels.com/photo/vibrant-yellow-canary-perched-on-branch-28981496/)
