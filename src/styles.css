@@ -24,14 +24,17 @@ h2{
 
 #header{
   display: flex;
-  margin: 3em;
+  padding: 5em;
+  background-image: -webkit-linear-gradient(-75deg, rgb(8, 145, 178) 50%, white 50%);
 }
 
 #aboutme{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1em;
+  box-shadow: 5px 8px 6px -6px rgba(0, 0, 0, 0.3);
+  padding-left: 1em;
+  background-color: white;
 }
 
 .github,
@@ -96,10 +99,33 @@ h2{
 
 footer{
   background-color: rgb(8, 145, 178);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 footer div p,
 footer div h2{
   color: white;
-  margin-left: 2em;
+  margin-top: 2em;
+}
+
+footer .github,
+footer .linkedin,
+footer .twitter{
+  width: 2em;
+  margin: 0.25em;
+}
+
+#canary{
+  width: 40em;
+}
+
+@media (max-width: 750px){
+  #header{
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    background-image: -webkit-linear-gradient(-75deg, rgb(8, 145, 178) 50%, white 50%);
+  }
 }
